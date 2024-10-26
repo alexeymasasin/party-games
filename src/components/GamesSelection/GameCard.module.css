@@ -1,0 +1,65 @@
+.wrapper {
+	display: flex;
+	width: 540px;
+	height: 300px;
+	border-radius: 20px;
+	padding: 5px 30px;
+	color: var(--background-deep);
+	transition: all 0.4s;
+}
+
+.wrapper:hover {
+	scale: 1.1;
+	z-index: 200;
+	box-shadow: 0px 0px 30px var(--background-deep);
+	cursor: pointer;
+}
+
+.wrapper > * > h3 {
+	font-size: 36px;
+	line-height: 0.9;
+	padding: 8px 0 10px;
+}
+
+.description {
+	font-size: 18px;
+	line-height: 1.1;
+}
+
+.players {
+	display: flex;
+	align-items: center;
+	gap: 7px;
+	padding-top: 10px;
+}
+
+.person_icon {
+	transform: scale(1.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.person_count {
+	font-size: 22px;
+	font-weight: 400;
+	justify-content: center;
+	align-items: center;
+}
+
+.play_icon {
+	transform: scale(7) rotate(-10deg);
+	position: relative;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 10px;
+	pointer-events: none;
+}
+
+.right_side {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
