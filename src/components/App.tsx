@@ -1,4 +1,4 @@
-import Footer from './Footer';
+import Footer from './Footer/Footer';
 import MainContent from './MainContent';
 
 function App() {

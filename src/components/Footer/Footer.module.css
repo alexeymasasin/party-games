@@ -1,0 +1,11 @@
+.wrapper {
+	padding-top: 8px;
+}
+
+.link {
+	font-weight: 200;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
