@@ -11,6 +11,7 @@ export default function GamesSelection() {
 					description={g.description}
 					playersRequired={g.playersRequired}
 					bgColor={g.bgColor}
+					path={g.path}
 				/>
 			))}
 		</div>

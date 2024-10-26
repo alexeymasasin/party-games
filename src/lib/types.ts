@@ -3,4 +3,5 @@ export type GameCardProps = {
 	description: string;
 	playersRequired: number;
 	bgColor: string;
+	path: string;
 };
