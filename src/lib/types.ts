@@ -5,3 +5,15 @@ export type GameCardProps = {
 	bgColor: string;
 	path: string;
 };
+
+export type RulesProps = {
+	rules: string;
+};
+
+export type GameProps = {
+	title: string;
+};
+
+export type OptionsProps = {
+	text: string;
+};

@@ -1,0 +1,25 @@
+.wrapper {
+	width: 80%;
+	min-height: 140px;
+	background-color: var(--secondary);
+	border-radius: var(--border-radius);
+	padding: 20px;
+	font-size: var(--text-size-normal);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	user-select: none;
+	color: var(--background-deep);
+	font-weight: 400;
+	border: none;
+	transition: all 0.3s;
+}
+
+.wrapper:hover {
+	transform: scale(0.95);
+}
+
+.wrapper:active {
+	transform: scale(0.9);
+}

@@ -6,6 +6,8 @@ export const GAME_CARDS = [
 		playersRequired: 1,
 		bgColor: 'purple-bg',
 		path: '/would-you-rather',
+		rules:
+			'Игра случайным образом генерирует пару вариантов (например, "Путешествие во времени" и "Способность читать мысли"). Затем игрок выбирает один из вариантов, нажав на кнопку или значок',
 	},
 	{
 		title: 'Правда или действие',
@@ -14,6 +16,7 @@ export const GAME_CARDS = [
 		playersRequired: 2,
 		bgColor: 'yellow-bg',
 		path: '/truth-or-dare',
+		rules: '',
 	},
 	{
 		title: 'Я никогда не...',
@@ -22,6 +25,7 @@ export const GAME_CARDS = [
 		playersRequired: 2,
 		bgColor: 'blue-bg',
 		path: '/i-ve-never',
+		rules: '',
 	},
 	{
 		title: 'Кто из вас',
@@ -30,5 +34,6 @@ export const GAME_CARDS = [
 		playersRequired: 2,
 		bgColor: 'pink-bg',
 		path: '/which-one-of-you',
+		rules: '',
 	},
 ];

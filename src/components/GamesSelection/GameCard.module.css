@@ -1,6 +1,6 @@
 .wrapper {
 	display: flex;
-	width: 540px;
+	width: 588px;
 	height: 300px;
 	border-radius: 20px;
 	padding: 5px 30px;
@@ -28,13 +28,13 @@
 }
 
 .wrapper > * > h3 {
-	font-size: 36px;
+	font-size: var(--text-size-large);
 	line-height: 0.9;
 	padding: 8px 0 10px;
 }
 
 .description {
-	font-size: 18px;
+	font-size: var(--text-size-small);
 	line-height: 1.1;
 }
 

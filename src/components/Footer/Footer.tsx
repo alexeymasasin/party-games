@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './Footer.module.css';
 
 export default function Footer() {
@@ -10,6 +11,9 @@ export default function Footer() {
 			>
 				&copy; alexeymasasin
 			</a>
+			<Link className={styles.link} to={'/'}>
+				Домой
+			</Link>
 		</footer>
 	);
 }
