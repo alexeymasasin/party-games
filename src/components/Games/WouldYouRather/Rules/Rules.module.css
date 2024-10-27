@@ -25,7 +25,16 @@
 	font-size: var(--text-size-small);
 }
 
-.settings_block {
+.back_btn {
 	height: 10%;
-	background-color: rgba(0, 0, 0, 0.2);
+	font-size: var(--text-size-normal);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	color: var(--background-deep);
+	transition: all 0.3s;
+}
+
+.back_btn:hover {
+	transform: scale(1.1);
 }
