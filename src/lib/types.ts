@@ -16,4 +16,5 @@ export type GameProps = {
 
 export type OptionsProps = {
 	text: string;
+	icon: JSX.Element;
 };

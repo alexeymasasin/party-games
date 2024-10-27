@@ -14,6 +14,8 @@
 	font-weight: 400;
 	border: none;
 	transition: all 0.3s;
+	overflow: hidden;
+	position: relative;
 }
 
 .wrapper:hover {
@@ -22,4 +24,21 @@
 
 .wrapper:active {
 	transform: scale(0.9);
+}
+
+.logo {
+	transform: scale(3.5) rotate(10deg);
+	position: absolute;
+	left: 40px;
+	top: 60px;
+	opacity: 0.4;
+	transition: all 0.2s;
+}
+
+.wrapper:hover .logo {
+	transform: scale(3.5) rotate(-15deg);
+}
+
+.wrapper:active .logo {
+	transform: scale(4.5) rotate(-15deg);
 }
