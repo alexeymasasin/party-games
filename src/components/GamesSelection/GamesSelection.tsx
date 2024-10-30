@@ -7,6 +7,7 @@ export default function GamesSelection() {
 		<div className={styles.wrapper}>
 			{GAME_CARDS.map((g) => (
 				<GameCard
+					key={g.title}
 					title={g.title}
 					description={g.description}
 					playersRequired={g.playersRequired}

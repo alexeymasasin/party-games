@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { RiNumber1, RiNumber2 } from 'react-icons/ri';
-import { WYR_OPTIONS } from '../../../../lib/options';
+import { WYR_OPTIONS } from '../../../../lib/games/wyr';
 import styles from './Game.module.css';
 import Option from './Option/Option';
 
