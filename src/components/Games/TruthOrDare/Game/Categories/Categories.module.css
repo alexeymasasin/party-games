@@ -1,0 +1,22 @@
+.wrapper {
+	display: flex;
+	gap: 12px;
+}
+
+.single_category {
+	border: none;
+	border-radius: var(--border-radius);
+	padding: 6px 18px;
+	transition: all 0.2s;
+	font-weight: bold;
+	color: var(--background-deep);
+}
+
+.single_category:hover {
+	transform: scale(0.95);
+	cursor: pointer;
+}
+
+.single_category:active {
+	transform: rotate(-5deg);
+}

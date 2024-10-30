@@ -9,7 +9,7 @@
 
 .wrapper > h2 {
 	font-size: var(--text-size-large);
-	padding: 40px;
+	padding: 40px 40px 10px 40px;
 }
 
 .options {

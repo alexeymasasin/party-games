@@ -4,7 +4,6 @@ import Rules from './Rules/Rules';
 import styles from './TruthOrDare.module.css';
 
 export default function TruthOrDare() {
-	console.log(GAME_CARDS[1].rules);
 	return (
 		<div className={`${styles.wrapper} game-bg`}>
 			<Game title={GAME_CARDS[1].title} />

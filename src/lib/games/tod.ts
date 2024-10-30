@@ -3,20 +3,24 @@ export const TOD_CATEGORIES = [
 		title: 'Отношения',
 		description:
 			'Вопросы и действия, связанные с романтическими отношениями, любовью, дружбой и семейными связями.',
+		path: '/truth-or-dare/relationships',
 	},
 	{
 		title: 'Страхи',
 		description: 'Вопросы и действия, связанные со страхами участников.',
+		path: '/truth-or-dare/fears',
 	},
 	{
 		title: 'Развлечения',
 		description:
 			'Вопросы и действия, связанные с юмором, играми, фильмами, музыкой и другими видами развлечений.',
+		path: '/truth-or-dare/entertainment',
 	},
 	{
 		title: 'Секреты',
 		description:
 			'Вопросы и действия, связанные с личными секретами, желаниями и привычками участников',
+		path: '/truth-or-dare/secrets',
 	},
 ];
 
