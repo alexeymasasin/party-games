@@ -1,50 +1,32 @@
-# React + TypeScript + Vite
+<!-- <p align="center">
+<img src="https://github.com/alexeymasasin/todo-app-demo/blob/main/public/hero.png" width="50%" />
+</p> -->
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Party Games
 
-Currently, two official plugins are available:
+Welcome to my Party Games App! – a simple open-source web application designed and developed by me to help you spend quality time with your friends or on your own.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Current Release
 
-## Expanding the ESLint configuration
+App is available online on this [GitHub Pages Link](https://alexeymasasin.github.io/party-games/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Local Installation
 
-- Configure the top-level `parserOptions` property like this:
+To install and run the project locally, follow these steps:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Clone the repository: `git clone https://github.com/alexeymasasin/party-games.git`
+- Navigate to the project directory: `cd party-games`
+- Install dependencies: `npm i`
+- Start the development server: `npm start`
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+The app will now be running at [http://localhost:5173/](http://localhost:5173/).
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Tech Stack
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- React (Vite)
+- TypeScript
+- HTML5, CSS3
+- React Router
+- React Icons
+- Radix UI
+- Framer Motion
