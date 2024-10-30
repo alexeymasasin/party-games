@@ -20,3 +20,8 @@
 .single_category:active {
 	transform: rotate(-5deg);
 }
+
+.selected {
+	text-decoration: underline;
+	box-shadow: 0 0 50px -10px var(--quaternary);
+}

@@ -28,12 +28,12 @@
 
 .task {
 	background-color: var(--quinary);
-	box-shadow: 0px 0px 50px var(--quinary);
+	box-shadow: 0px 0px 50px -10px var(--quinary);
 }
 
 .question {
 	background-color: var(--secondary);
-	box-shadow: 0px 0px 50px var(--secondary);
+	box-shadow: 0px 0px 50px -10px var(--secondary);
 }
 
 @keyframes bouncing {

@@ -17,7 +17,7 @@ export default function SingleCategory({
 		<button
 			onClick={() => handleSetCategory(type)}
 			className={`${styles.single_category} ${
-				currentCategory === type ? 'underline' : null
+				currentCategory === type ? styles.selected : null
 			} yellow-bg`}
 		>
 			{title}
