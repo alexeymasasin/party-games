@@ -12,7 +12,7 @@ export default function Rules({ rules }: RulesProps) {
 				<h3>Правила</h3>
 				<p>{rules}</p>
 			</div>
-			<Link to={'/'} className={styles.back_btn}>
+			<Link to={'/party-games'} className={styles.back_btn}>
 				Назад
 			</Link>
 		</div>

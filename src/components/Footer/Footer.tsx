@@ -11,7 +11,7 @@ export default function Footer() {
 			>
 				&copy; alexeymasasin
 			</a>
-			<Link className={styles.link} to={'/'}>
+			<Link className={styles.link} to={'/party-games'}>
 				Домой
 			</Link>
 		</footer>

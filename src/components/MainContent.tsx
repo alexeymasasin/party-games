@@ -7,9 +7,12 @@ export default function MainContent() {
 	return (
 		<main>
 			<Routes>
-				<Route path="/" Component={GamesSelection} />
-				<Route path="/would-you-rather" Component={WouldYouRather} />
-				<Route path="/truth-or-dare" Component={TruthOrDare} />
+				<Route path="/party-games" Component={GamesSelection} />
+				<Route
+					path="/party-games/would-you-rather"
+					Component={WouldYouRather}
+				/>
+				<Route path="/party-games/truth-or-dare" Component={TruthOrDare} />
 			</Routes>
 		</main>
 	);
