@@ -1,4 +1,4 @@
-import ActionBtn from '../Task/ActionBtn';
+import ActionBtn from './ActionBtn';
 
 type ActionsProps = {
 	generateTask: () => void;

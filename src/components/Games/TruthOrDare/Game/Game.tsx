@@ -7,6 +7,7 @@ import Actions from './Actions/Actions';
 import Categories from './Categories/Categories';
 import styles from './Game.module.css';
 import Assignment from './Task/Assignment';
+import DefaultAssignment from './Task/DefaultAssignment';
 
 export type GameProps = {
 	title: string;
@@ -57,6 +58,7 @@ export default function Game({ title }: GameProps) {
 					generateQuestion={generateQuestion}
 				/>
 			)}
+			{currentCategory === 'default' && <DefaultAssignment />}
 		</div>
 	);
 }
