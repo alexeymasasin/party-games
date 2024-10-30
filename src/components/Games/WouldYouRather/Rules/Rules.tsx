@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
-import { RulesProps } from '../../../../lib/types';
 import styles from './Rules.module.css';
+
+export type RulesProps = {
+	rules: string;
+};
 
 export default function Rules({ rules }: RulesProps) {
 	return (

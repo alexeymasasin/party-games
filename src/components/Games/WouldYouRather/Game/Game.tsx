@@ -1,9 +1,12 @@
 import { useState } from 'react';
 import { RiNumber1, RiNumber2 } from 'react-icons/ri';
 import { WYR_OPTIONS } from '../../../../lib/options';
-import { GameProps } from '../../../../lib/types';
 import styles from './Game.module.css';
 import Option from './Option/Option';
+
+export type GameProps = {
+	title: string;
+};
 
 export default function Game({ title }: GameProps) {
 	const randomOption = (): string => {

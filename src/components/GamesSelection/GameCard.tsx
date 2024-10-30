@@ -1,7 +1,14 @@
 import { PersonIcon, TriangleRightIcon } from '@radix-ui/react-icons';
 import { Link } from 'react-router-dom';
-import { GameCardProps } from '../../lib/types';
 import styles from './GameCard.module.css';
+
+type GameCardProps = {
+	title: string;
+	description: string;
+	playersRequired: number;
+	bgColor: string;
+	path: string;
+};
 
 export default function GameCard({
 	title,
