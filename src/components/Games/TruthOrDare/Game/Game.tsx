@@ -1,7 +1,13 @@
 import { useState } from 'react';
 import {
+	TOD_QUESTIONS_ENTERTAINMENT,
+	TOD_QUESTIONS_FEARS,
 	TOD_QUESTIONS_RELATIONSHIPS,
+	TOD_QUESTIONS_SECRETS,
+	TOD_TASKS_ENTERTAINMENT,
+	TOD_TASKS_FEARS,
 	TOD_TASKS_RELATIONSHIPS,
+	TOD_TASKS_SECRETS,
 } from '../../../../lib/games/tod';
 import Actions from './Actions/Actions';
 import Categories from './Categories/Categories';
@@ -28,6 +34,23 @@ export default function Game({ title }: GameProps) {
 				]
 			);
 		}
+		if (currentCategory === 'fears') {
+			setAssignmentText(
+				TOD_TASKS_FEARS[Math.floor(Math.random() * TOD_TASKS_FEARS.length)]
+			);
+		}
+		if (currentCategory === 'entertainment') {
+			setAssignmentText(
+				TOD_TASKS_ENTERTAINMENT[
+					Math.floor(Math.random() * TOD_TASKS_ENTERTAINMENT.length)
+				]
+			);
+		}
+		if (currentCategory === 'secrets') {
+			setAssignmentText(
+				TOD_TASKS_SECRETS[Math.floor(Math.random() * TOD_TASKS_SECRETS.length)]
+			);
+		}
 	};
 
 	const generateQuestion = () => {
@@ -35,6 +58,27 @@ export default function Game({ title }: GameProps) {
 			setAssignmentText(
 				TOD_QUESTIONS_RELATIONSHIPS[
 					Math.floor(Math.random() * TOD_QUESTIONS_RELATIONSHIPS.length)
+				]
+			);
+		}
+		if (currentCategory === 'fears') {
+			setAssignmentText(
+				TOD_QUESTIONS_FEARS[
+					Math.floor(Math.random() * TOD_QUESTIONS_FEARS.length)
+				]
+			);
+		}
+		if (currentCategory === 'entertainment') {
+			setAssignmentText(
+				TOD_QUESTIONS_ENTERTAINMENT[
+					Math.floor(Math.random() * TOD_QUESTIONS_ENTERTAINMENT.length)
+				]
+			);
+		}
+		if (currentCategory === 'secrets') {
+			setAssignmentText(
+				TOD_QUESTIONS_SECRETS[
+					Math.floor(Math.random() * TOD_QUESTIONS_SECRETS.length)
 				]
 			);
 		}
