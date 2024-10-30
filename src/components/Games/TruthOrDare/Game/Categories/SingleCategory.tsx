@@ -1,15 +1,26 @@
-import { Link } from 'react-router-dom';
 import styles from './Categories.module.css';
 
 type SingleCategoryProps = {
 	title: string;
-	path: string;
+	currentCategory: string;
+	type: string;
+	handleSetCategory: (category: string) => void;
 };
 
-export default function SingleCategory({ title, path }: SingleCategoryProps) {
+export default function SingleCategory({
+	title,
+	currentCategory,
+	handleSetCategory,
+	type,
+}: SingleCategoryProps) {
 	return (
-		<Link to={path} className={`${styles.single_category} yellow-bg`}>
+		<button
+			onClick={() => handleSetCategory(type)}
+			className={`${styles.single_category} ${
+				currentCategory === type ? 'underline' : null
+			} yellow-bg`}
+		>
 			{title}
-		</Link>
+		</button>
 	);
 }

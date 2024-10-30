@@ -96,6 +96,10 @@ a {
 	align-items: center;
 }
 
+.underline {
+	text-decoration: underline;
+}
+
 .blue-bg {
 	animation: animatedBackground 500s linear infinite;
 	background-color: var(--primary);

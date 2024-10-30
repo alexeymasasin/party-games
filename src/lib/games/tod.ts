@@ -3,28 +3,28 @@ export const TOD_CATEGORIES = [
 		title: 'Отношения',
 		description:
 			'Вопросы и действия, связанные с романтическими отношениями, любовью, дружбой и семейными связями.',
-		path: '/truth-or-dare/relationships',
+		type: 'relationships',
 	},
 	{
 		title: 'Страхи',
 		description: 'Вопросы и действия, связанные со страхами участников.',
-		path: '/truth-or-dare/fears',
+		type: 'fears',
 	},
 	{
 		title: 'Развлечения',
 		description:
 			'Вопросы и действия, связанные с юмором, играми, фильмами, музыкой и другими видами развлечений.',
-		path: '/truth-or-dare/entertainment',
+		type: 'entertainment',
 	},
 	{
 		title: 'Секреты',
 		description:
 			'Вопросы и действия, связанные с личными секретами, желаниями и привычками участников',
-		path: '/truth-or-dare/secrets',
+		type: 'secrets',
 	},
 ];
 
-export const TOD_DARE_RELATIONSHIPS = [
+export const TOD_TASKS_RELATIONSHIPS = [
 	'Признайся в любви человеку, который тебе нравится',
 	'Расскажи о своем самом большом разочаровании в отношениях',
 	'Напиши письмо человеку, которого ты когда-то любила',
