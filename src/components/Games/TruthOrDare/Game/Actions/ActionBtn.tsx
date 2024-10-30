@@ -1,3 +1,5 @@
+import styles from './Actions.module.css';
+
 type ActionBtnProps = {
 	type: string;
 	generateTask: () => void;
@@ -10,7 +12,10 @@ export default function ActionBtn({
 	generateQuestion,
 }: ActionBtnProps) {
 	return (
-		<button onClick={type === 'task' ? generateTask : generateQuestion}>
+		<button
+			className={`${type === 'task' ? styles.task : styles.question}`}
+			onClick={type === 'task' ? generateTask : generateQuestion}
+		>
 			{type === 'task' ? 'Действие' : 'Правда'}
 		</button>
 	);

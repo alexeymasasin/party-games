@@ -40,7 +40,7 @@ export default function Game({ title }: GameProps) {
 		}
 	};
 
-	const [assignmentText, setAssignmentText] = useState('sd');
+	const [assignmentText, setAssignmentText] = useState('Выберите действие:');
 
 	return (
 		<div className={styles.wrapper}>

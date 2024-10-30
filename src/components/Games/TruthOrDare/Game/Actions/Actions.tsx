@@ -1,4 +1,5 @@
 import ActionBtn from './ActionBtn';
+import styles from './Actions.module.css';
 
 type ActionsProps = {
 	generateTask: () => void;
@@ -10,7 +11,7 @@ export default function Actions({
 	generateQuestion,
 }: ActionsProps) {
 	return (
-		<div>
+		<div className={styles.actions}>
 			<ActionBtn
 				type="question"
 				generateTask={generateTask}
