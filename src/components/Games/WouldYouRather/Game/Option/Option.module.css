@@ -42,3 +42,10 @@
 .wrapper:active .logo {
 	transform: scale(4.5) rotate(-15deg);
 }
+
+@media only screen and (max-width: 1200px) {
+	.wrapper {
+		height: 200px;
+		width: 100%;
+	}
+}
