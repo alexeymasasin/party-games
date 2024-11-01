@@ -5,3 +5,12 @@
 	border-radius: var(--border-radius);
 	display: flex;
 }
+
+@media only screen and (max-width: 1200px) {
+	.wrapper {
+		width: 95%;
+		height: auto;
+		margin: 0 auto;
+		flex-direction: column;
+	}
+}

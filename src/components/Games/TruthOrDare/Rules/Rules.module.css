@@ -12,16 +12,16 @@
 	padding: 30px;
 }
 
-.text_block > p,
-.text_block > h3 {
+.text_block>p,
+.text_block>h3 {
 	color: var(--background-deep);
 }
 
-.text_block > h3 {
+.text_block>h3 {
 	font-size: var(--text-size-normal);
 }
 
-.text_block > p {
+.text_block>p {
 	font-size: var(--text-size-small);
 }
 
@@ -38,4 +38,19 @@
 .back_btn:hover {
 	transform: scale(1.05);
 	text-decoration: underline;
+}
+
+@media only screen and (max-width: 1200px) {
+	.wrapper {
+		width: 100%;
+		height: auto;
+		margin: 48px auto 0;
+		flex-direction: column;
+		border-radius: var(--border-radius);
+		text-align: center;
+	}
+
+	.back_btn {
+		margin: 0 0 24px 0;
+	}
 }
