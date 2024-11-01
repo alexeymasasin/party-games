@@ -12,15 +12,6 @@
 	color: var(--background-deep);
 }
 
-.single_category:hover {
-	transform: scale(0.95);
-	cursor: pointer;
-}
-
-.single_category:active {
-	transform: rotate(-5deg);
-}
-
 .selected {
 	text-decoration: underline;
 	box-shadow: 0 0 50px -10px var(--quaternary);
@@ -48,5 +39,16 @@
 		font-size: var(--text-size-small);
 		width: 45%;
 		margin: 0 auto;
+	}
+}
+
+@media not (hover: none) {
+	.single_category:hover {
+		transform: scale(0.95);
+		cursor: pointer;
+	}
+
+	.single_category:active {
+		transform: rotate(-5deg);
 	}
 }

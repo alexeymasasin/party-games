@@ -15,17 +15,6 @@
 	color: white;
 }
 
-.task:hover,
-.question:hover {
-	transform: scale(1.05);
-	cursor: pointer;
-}
-
-.task:active,
-.question:active {
-	transform: scale(0.9);
-}
-
 .task {
 	background-color: var(--quinary);
 	box-shadow: 0px 0px 50px -10px var(--quinary);
@@ -58,5 +47,19 @@
 		padding: 18px;
 		width: 100%;
 		animation: bouncing 2s infinite;
+	}
+}
+
+@media not (hover: none) {
+
+	.task:hover,
+	.question:hover {
+		transform: scale(1.05);
+		cursor: pointer;
+	}
+
+	.task:active,
+	.question:active {
+		transform: scale(0.9);
 	}
 }

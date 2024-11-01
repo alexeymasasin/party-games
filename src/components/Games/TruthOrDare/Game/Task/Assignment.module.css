@@ -34,12 +34,18 @@
 }
 
 @media only screen and (max-width: 1200px) {
+	.default_text {
+		font-size: var(--text-size-small);
+		padding-top: 10px;
+		font-weight: 400;
+	}
+
 	.assignment {
 		font-size: var(--text-size-normal);
 		padding-top: 10px;
 		font-weight: 400;
 		text-align: center;
 		max-width: 90%;
-		height: 330px;
+		height: 300px;
 	}
 }
